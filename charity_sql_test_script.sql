@@ -57,4 +57,3 @@ INSERT INTO Projects (Project_ID, Project_Name) VALUES (03, 'Project three');
 INSERT INTO Projects (Project_ID, Project_Name) VALUES (04, 'Project four');
 
 COMMIT;
-
