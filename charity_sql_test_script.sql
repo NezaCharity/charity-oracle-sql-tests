@@ -49,11 +49,12 @@ SELECT Emp_Name
 FROM Employees
 WHERE Dept_ID = (SELECT Dept_ID FROM Departments WHERE Dept_Name = 'HR');
 
-BEGIN;
+BEGIN
+    INSERT INTO Projects (Project_ID, Project_Name) VALUES (01, 'Project one');
+    INSERT INTO Projects (Project_ID, Project_Name) VALUES (02, 'Project two');
+    INSERT INTO Projects (Project_ID, Project_Name) VALUES (03, 'Project three');
+    INSERT INTO Projects (Project_ID, Project_Name) VALUES (04, 'Project four');
 
-INSERT INTO Projects (Project_ID, Project_Name) VALUES (01, 'Project one');
-INSERT INTO Projects (Project_ID, Project_Name) VALUES (02, 'Project two');
-INSERT INTO Projects (Project_ID, Project_Name) VALUES (03, 'Project three');
-INSERT INTO Projects (Project_ID, Project_Name) VALUES (04, 'Project four');
-
-COMMIT;
+    COMMIT;
+END;
+/
