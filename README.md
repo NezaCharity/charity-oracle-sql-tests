@@ -23,3 +23,7 @@ This is a system for managing employee and project data in an organization. The 
 3. The third subquery finds all employees in the 'HR' department.
 4. Another query is an example of transaction (TCL) where COMMIT guarantees that the changes made in the transaction (the INSERT operations) are applied and visible to all users, and the transaction is completed successfully.
 5. **NB. SCREENSHOTS ARE NOT ARRANGED AS EXPLAINED**
+
+## Conceptual Diagram
+<img width="473" alt="conceptual diagram" src="https://github.com/user-attachments/assets/e5ed7b1f-6c54-4d4d-8435-6bb70f527275">
+
